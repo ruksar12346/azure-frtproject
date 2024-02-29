@@ -1,7 +1,7 @@
 ### NOTE: I was not able to create Azure MySQL database service with my Azure subscription, hence I am using MySQL installed on Azure VM.
 ### Kindly consider this reason, and that is why I am only able to demonstrate usage of Azure VM and Azure Cognitive Speech service for the Future ready talent project.
 ### Thus , this project is only using 2 Azure service against the guideline of using atleast 3 Azure service.
-
+### Screenshots https://ruksar.blob.core.windows.net/ruk/Screenshot (1).png   https://ruksar.blob.core.windows.net/ruk/Screenshot (2).png
 ## VEHICLE PARKING MANAGEMENT SYSTEM
 ### Overview
 Vehicle Parking Management System (VPMS) is a very simple web application which uses PHP on the server side and Apache httpd is the webserver, MySQL is the datastore. The purpose of this application is to demonstrate knowledge of and use of Azure Cloud services to deliver some useful application using Cloud serrvices over the Internet.
