@@ -5,6 +5,7 @@
 ## VEHICLE PARKING MANAGEMENT SYSTEM
 ### Overview
 Vehicle Parking Management System (VPMS) is a very simple web application which uses PHP on the server side and Apache httpd is the webserver, MySQL is the datastore. The purpose of this application is to demonstrate knowledge of and use of Azure Cloud services to deliver some useful application using Cloud serrvices over the Internet.
+This application has admin and User panels. The admin user can perform vehicle ,parking slot and parking management task. The user can view, print, listen to a  vehicle parking details (Text to Speech Application). The parking and vehicle details are saved in the MYSQL DB running on the AzureVM, which is a Ubuntu Linux instance. The runtime for the web application is PHP. For the listen functionality am using Azure Speech Service. The parking number readout can be played on the speaker. Thus making this application useful for users.
 
 ### Prerequisites and Installation
 
@@ -84,6 +85,9 @@ Password: Test@123
 
 User Credential   
 Username: 1234567890   
-Password: Test@123    
+Password: Test@123
+
+Admin Usecases: Add vehicle category, Add vehicle, Manage In and Out vehicle, Report, Search vehicle, Regusers.
+User  Usecases: View vehicle(view,print,listen).
 
 
